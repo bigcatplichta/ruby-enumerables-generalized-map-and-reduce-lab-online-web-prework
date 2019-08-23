@@ -3,4 +3,9 @@ def map(array)
   new_array = []
   
   while i < array.length
-    do yield
+    yield
+  i += 1 
+  end
+  return new_array
+end
+
