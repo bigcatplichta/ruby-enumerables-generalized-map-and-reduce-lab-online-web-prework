@@ -4,8 +4,8 @@ def map(array)
   
   while i < array.length
     new_array.push(yield(array[i]))
-  i += 1 
+    i += 1 
   end
-  return new_array
+  new_array
 end
 
